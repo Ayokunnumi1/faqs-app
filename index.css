@@ -24,7 +24,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 450px;
+  width: 80%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 20px;
@@ -66,11 +66,4 @@
 
 p {
   margin-top: 20px;
-}
-
-@media screen and (min-width = 768px){
-  #section {
-    width: 80%;
-  }
-  
 }
