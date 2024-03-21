@@ -32,14 +32,6 @@ const closeIconBtn = mobileNav.querySelector('.close_icon_btn');
 // console.log(mobileNav);
 
 hamburgerBtn.addEventListener('click', () => {
+    navListContainer.classList.toggle('show_navList_container')
     console.log('clicked');
-    navListContainer.style.display = 'block';
-    closeIconBtn.style.display = 'block'
-    hamburgerBtn.style.display = 'none'
 });
-
-closeIconBtn.addEventListener('click', () => {
-    navListContainer.style.display = 'none';
-    hamburgerBtn.style.display = 'block'
-    closeIconBtn.style.display = 'none'
-})
