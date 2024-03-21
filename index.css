@@ -53,3 +53,28 @@
   padding: 10px;
 }
 
+.mobile_nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid red;
+}
+
+.mobile_nav_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav_list_container {
+  position: absolute;
+  left: 50%;
+  top: 7%;
+  display: none;
+}
+
+.close_icon_btn {
+  display: none;
+  border-radius: 50%;
+  background-color: #000;
+}
