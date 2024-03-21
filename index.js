@@ -1,3 +1,4 @@
+// faq logic starts
 const plusIconBtn = document.querySelectorAll('.plus-icon-btn');
 const paragraphs = document.querySelectorAll('p');
 const minusIconBtn = document.querySelectorAll('.minus-icon-btn');
@@ -19,4 +20,26 @@ minusIconBtn.forEach((minusIcon, index) => {
     plusIconBtn[index].style.display = 'block';
     minusIcon.style.display = 'none'
 })
+})
+
+// faq logic ends
+
+// navbar section starts
+const mobileNav = document.querySelector('.mobile_nav');
+const hamburgerBtn = mobileNav.querySelector('.hamburger_btn')
+const navListContainer = mobileNav.querySelector('.nav_list_container');
+const closeIconBtn = mobileNav.querySelector('.close_icon_btn');
+// console.log(mobileNav);
+
+hamburgerBtn.addEventListener('click', () => {
+    console.log('clicked');
+    navListContainer.style.display = 'block';
+    closeIconBtn.style.display = 'block'
+    hamburgerBtn.style.display = 'none'
+});
+
+closeIconBtn.addEventListener('click', () => {
+    navListContainer.style.display = 'none';
+    hamburgerBtn.style.display = 'block'
+    closeIconBtn.style.display = 'none'
 })
