@@ -35,3 +35,4 @@ hamburgerBtn.addEventListener('click', () => {
     navListContainer.classList.toggle('show_navList_container')
     console.log('clicked');
 });
+
