@@ -81,3 +81,9 @@ const locations = [
 button1.onclick = goStore;
 button2.onclick = goCave;
 button3.onclick = fightDragon;
+
+// Activate goStore function
+function goStore() {
+  update(locations[1]);
+}
+
