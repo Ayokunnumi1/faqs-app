@@ -83,7 +83,8 @@ button2.onclick = goCave;
 button3.onclick = fightDragon;
 
 // Activate goStore function
-function goStore() {
+function goStore() { 
+    // This function calls another function that takes a parameter which is an object that undergoes some actions
   update(locations[1]);
 }
 
