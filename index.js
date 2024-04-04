@@ -188,3 +188,8 @@ function fightBeast() {
   goFight();
 }
 
+function fightDragon() {
+  fighting = 2;
+  goFight();
+}
+
