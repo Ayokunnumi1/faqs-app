@@ -77,6 +77,12 @@ const locations = [
     text: "You enter the cave. You see some monsters."
   }
 ];
+const weapons = [
+  { name: 'stick', power: 5 },
+  { name: 'dagger', power: 30 },
+  { name: 'claw hammer', power: 50 },
+  { name: 'sword', power: 100 }
+];
 // initialize buttons
 button1.onclick = goStore;
 button2.onclick = goCave;
@@ -105,3 +111,4 @@ function goTown() {
 function goCave() {
   update(locations[2]);
 }
+
